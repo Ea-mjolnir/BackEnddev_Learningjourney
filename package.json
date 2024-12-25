@@ -1,0 +1,22 @@
+{
+  "name": "dev_projects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx concurrently 'node index.js' 'Expense_tracker.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "express": "^4.21.2",
+    "inquirer": "^12.3.0",
+    "uuid": "^11.0.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
